@@ -3,7 +3,7 @@
 ### AI & Full Stack Developer
 
 🔗 **Live Site:**  
-[View My Portfolio](YOUR_DEPLOYED_URL)
+[View My Portfolio](https://mounika-portfolio-delta.vercel.app)
 
 ---
 
