@@ -40,11 +40,11 @@ function Projects() {
                             "React",
                         ]}
                         github="https://github.com/malga-mounika/AI-powered-Rag-Chatbot"
-                        demo="#"
+                        demo="https://ai-rag-chatbot-l9wo8j6dx-malga-mounikas-projects.vercel.app/"
                     />
 
                     <ProjectCard
-                        number="03"
+                        number="02"
                         title="BloodConnect"
                         description="A blood donation platform designed to connect donors, hospitals, and recipients using blood-group and geographic matching with notification support."
                         tech={[
@@ -58,7 +58,7 @@ function Projects() {
                     />
 
                     <ProjectCard
-                        number="04"
+                        number="03"
                         title="Local Marketplace"
                         description="A role-based marketplace application that allows users to list products, communicate through real-time chat, and manage marketplace interactions."
                         tech={[
