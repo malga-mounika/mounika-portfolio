@@ -11,24 +11,25 @@ function Skills() {
                 {/* Section Heading */}
                 <div className="mb-12 text-center">
                     <p className="text-sm font-medium uppercase tracking-[0.25em] text-indigo-400">
-                        My Skills
+
                     </p>
 
                     <h2 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
-                        Technologies &{" "}
-                        <span className="text-indigo-400">Skills</span>
+                        What I've Worked With {" "}
+                        <span className="text-indigo-400"> </span>
                     </h2>
 
                     <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-400">
-                        Tools and technologies I work with to build modern,
-                        scalable, and intelligent applications.
+                        Technologies and tools I've worked with across AI,
+                        full stack development, backend systems, databases,
+                        and modern web applications.
                     </p>
                 </div>
 
                 {/* Skills Grid */}
                 <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
 
-                    {/* Programming */}
+                    {/* Programming Languages */}
                     <SkillCard
                         title="Programming Languages"
                         icon="</>"
@@ -39,25 +40,13 @@ function Skills() {
                                 icon: "https://cdn.simpleicons.org/python/3776AB",
                             },
                             {
-                                name: "Java",
-                                icon: "https://cdn.simpleicons.org/openjdk/ED8B00",
-                            },
-                            {
                                 name: "JavaScript",
                                 icon: "https://cdn.simpleicons.org/javascript/F7DF1E",
-                            },
-                            {
-                                name: "TypeScript",
-                                icon: "https://cdn.simpleicons.org/typescript/3178C6",
-                            },
-                            {
-                                name: "C",
-                                icon: "https://cdn.simpleicons.org/c/00599C",
                             },
                         ]}
                     />
 
-                    {/* AI */}
+                    {/* AI / Generative AI */}
                     <SkillCard
                         title="AI / Generative AI"
                         icon="AI"
@@ -168,10 +157,6 @@ function Skills() {
                                 color: "bg-gradient-to-br from-green-400 to-blue-500",
                             },
                             {
-                                name: "Prisma",
-                                icon: "https://cdn.simpleicons.org/prisma/FFFFFF",
-                            },
-                            {
                                 name: "SQL",
                                 textIcon: "SQL",
                                 color: "bg-blue-600",
@@ -179,7 +164,7 @@ function Skills() {
                         ]}
                     />
 
-                    {/* Tools */}
+                    {/* Tools & Platforms */}
                     <SkillCard
                         title="Tools & Platforms"
                         icon="DEV"

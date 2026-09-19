@@ -6,72 +6,96 @@ function About() {
         >
             <div className="mx-auto max-w-6xl">
 
+                {/* Section Heading */}
                 <div className="mb-12">
-                    <p className="text-sm font-medium uppercase tracking-[0.25em] text-indigo-400">
+                    <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
                         About Me
-                    </p>
-
-                    <h2 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
-                        Building with purpose.
                     </h2>
                 </div>
 
+                {/* About Content */}
                 <div className="grid gap-10 md:grid-cols-2">
 
+                    {/* Introduction */}
                     <div>
                         <p className="text-lg leading-8 text-slate-400">
-                            I'm a Computer Science Engineering student passionate about
-                            Generative AI and Full Stack Development.
-                            I enjoy building practical applications that combine
-                            intelligent systems with modern web technologies.
-                            Passionate about turning ideas into practical software solutions.
-                        </p>
-
-                        <p className="mt-6 text-lg leading-8 text-slate-400">
+                            I'm{" "}
+                            <strong className="font-semibold text-white">
+                                Malga Mounika
+                            </strong>
+                            , a{" "}
+                            <strong className="font-semibold text-white">
+                                final-year Computer Science Engineering student
+                            </strong>{" "}
+                            passionate about{" "}
+                            <strong className="font-semibold text-indigo-400">
+                                Generative AI
+                            </strong>{" "}
+                            and{" "}
+                            <strong className="font-semibold text-indigo-400">
+                                Full Stack Development
+                            </strong>
+                            . I enjoy building{" "}
+                            <strong className="font-semibold text-white">
+                                practical applications
+                            </strong>{" "}
+                            that combine intelligent systems with{" "}
+                            <strong className="font-semibold text-white">
+                                modern web technologies
+                            </strong>{" "}
+                            and turn ideas into practical software solutions.
                         </p>
                     </div>
 
                     {/* Quick Information */}
-                    <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-7">
+                    <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-8">
 
-                        <h3 className="text-xl font-semibold text-white">
+                        <h3 className="text-2xl font-semibold text-white">
                             Quick Information
                         </h3>
 
-                        <div className="mt-6 space-y-5">
+                        <div className="mt-7 space-y-7">
 
+                            {/* Education */}
                             <div>
-                                <p className="text-sm text-slate-500">
+                                <p className="text-base text-slate-500">
                                     Education
                                 </p>
-                                <p className="mt-1 text-slate-300">
+
+                                <p className="mt-2 text-lg font-semibold text-slate-200">
                                     B.Tech — Computer Science Engineering
                                 </p>
                             </div>
 
+                            {/* College */}
                             <div>
-                                <p className="text-sm text-slate-500">
+                                <p className="text-base text-slate-500">
                                     College
                                 </p>
-                                <p className="mt-1 text-slate-300">
+
+                                <p className="mt-2 text-lg font-semibold text-slate-200">
                                     Sphoorthy Engineering College
                                 </p>
                             </div>
 
+                            {/* Graduation */}
                             <div>
-                                <p className="text-sm text-slate-500">
+                                <p className="text-base text-slate-500">
                                     Graduation
                                 </p>
-                                <p className="mt-1 text-slate-300">
+
+                                <p className="mt-2 text-lg font-semibold text-slate-200">
                                     2027
                                 </p>
                             </div>
 
+                            {/* CGPA */}
                             <div>
-                                <p className="text-sm text-slate-500">
+                                <p className="text-base text-slate-500">
                                     CGPA
                                 </p>
-                                <p className="mt-1 font-semibold text-indigo-400">
+
+                                <p className="mt-2 text-xl font-bold text-indigo-400">
                                     9.21 / 10
                                 </p>
                             </div>

@@ -20,7 +20,7 @@ function Projects() {
 
                     <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-400">
                         A selection of projects where I applied software engineering,
-                        Generative AI, machine learning, databases, and modern web
+                        Generative AI, databases, and modern web
                         technologies to solve practical problems.
                     </p>
 
@@ -39,23 +39,7 @@ function Projects() {
                             "ChromaDB",
                             "React",
                         ]}
-                        github="https://github.com/malga-mounika"
-                        demo="#"
-                    />
-
-                    <ProjectCard
-                        number="02"
-                        title="Water Quality Monitoring System"
-                        description="A portable GPS-enabled IoT telemetry platform for monitoring water quality, calculating Water Quality Index, detecting contamination levels, and generating treatment recommendations."
-                        tech={[
-                            "ESP32",
-                            "Python",
-                            "FastAPI",
-                            "React",
-                            "PostgreSQL",
-                            "Machine Learning",
-                        ]}
-                        github="https://github.com/malga-mounika"
+                        github="https://github.com/malga-mounika/AI-powered-Rag-Chatbot"
                         demo="#"
                     />
 
@@ -69,7 +53,7 @@ function Projects() {
                             "Node.js",
                             "PostgreSQL",
                         ]}
-                        github="https://github.com/malga-mounika"
+                        github="https://github.com/malga-mounika/bloodconnect"
                         demo="#"
                     />
 
@@ -83,7 +67,7 @@ function Projects() {
                             "Firestore",
                             "Real-time Chat",
                         ]}
-                        github="https://github.com/malga-mounika"
+                        github="https://github.com/malga-mounika/local-marketplace-app"
                         demo="#"
                     />
 
