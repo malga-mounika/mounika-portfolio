@@ -29,8 +29,8 @@ function Experience() {
                         points={[
                             "Developed features for a pet-store e-commerce platform using Node.js, Express.js, TypeScript, PostgreSQL and React/Next.js.",
                             "Built REST APIs for authentication, products, collections, orders and gift cards.",
-                            "Implemented real-time communication using Socket.IO across web and mobile applications.",
-                            "Improved database/query performance by approximately 20% through indexing, connection pooling and route optimization.",
+                            "Implemented real-time communication  across web and mobile applications.",
+                            "Built and integrated RESTful APIs for authentication, product management, and core workflows.",
                         ]}
                     />
 
