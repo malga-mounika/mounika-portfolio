@@ -1,10 +1,8 @@
 import {
-    Download,
     ArrowUpRight,
 } from "lucide-react";
 
 import { motion } from "framer-motion";
-
 
 // ===============================
 // Home Component
@@ -128,10 +126,9 @@ function Home() {
                         </a>
 
 
-                        {/* Resume */}
+                        {/* Contact */}
                         <a
-                            href="/Mounika-Malga-Resume.pdf"
-                            download
+                            href="#contact"
                             className="
                                 inline-flex
                                 items-center
@@ -148,9 +145,9 @@ function Home() {
                                 hover:text-indigo-400
                             "
                         >
-                            <Download size={18} />
+                            Contact
 
-                            Resume
+                            <ArrowUpRight size={18} />
                         </a>
 
                     </div>
@@ -256,6 +253,5 @@ function Home() {
         </section>
     );
 }
-
 
 export default Home;

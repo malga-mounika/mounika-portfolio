@@ -54,7 +54,7 @@ function Projects() {
                             "PostgreSQL",
                         ]}
                         github="https://github.com/malga-mounika/bloodconnect"
-                        demo="#"
+                        demo="https://bloodconnect-sandy.vercel.app"
                     />
 
                     <ProjectCard
